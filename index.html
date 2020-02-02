@@ -4,61 +4,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:300,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="./main.css">
+  <title>Main Page</title>
 </head>
 <body>
-  <!--Wrapper-->
-  <div class="wrapper">
+<!--Wrapper-->
+<div class="wrapper">
 
-      <!--header-->
-      <header class="header">
+  
+    <!--header-->
+    <header class="header">
+      <div class="header-container">
         <a  class="logo">
-          <img src="" class="logo" alt="Логотип">
+          <img src="img/logo.png" class="logo" alt="Логотип">
         </a>
         <div class="contacts">
           <a href="tel:88000039210" class="contacts-phone">8 (800) 00-392-10</a>
           <div class="contacts__workhours">График работы</div>
         </div>
-      </header><!--/header-->
+      </div>
+    </header><!--/header-->
 
-      <!--cosmo-->
-      <section> 
-        <div class="container">
-          <img src="" alt="">
-        </div>
-      </section><!--/cosmo-->
+    <!--cosmo-->
+    <section>
+      <div class="section-container">
+        <img src="./img/Banner.png" alt="">
+      </div>
+    </section><!--/cosmo-->
 
-      <!--main-->
-      <main>
+    <!--main-->
+    <main>
+      <div class="container">
         <!--sidebar-->
         <div class="sidebar">
           <nav class="nav">
             <ul class="nav-list">
               <li class="nav-item">
                 <a href="" class="nav-link">
-                  <img src="" alt="">
+                  <img src="./img/main_icon.png" alt="">
                   <div class="nav-title">Главная</div>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="" class="nav-link">
-                  <img src="" alt="">
+                  <img src="./img/feed_icon.png" alt="">
                   <div class="nav-title">Отзывы</div>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="" class="nav-link">
-                  <img src="" alt="">
+                  <img src="./img/wallet_icon.png" alt="">
                   <div class="nav-title">Тарифы</div>
                 </a>
               </li>
             </ul>
           </nav>
         </div><!--/sidebar-->
-        
+
         <!--future-->
-        <h2>Особенности</h2>
+      <div class="content-text">
         <ul class="futures">
+          <h2>Особенности</h2>
           <li> <!--Блок 1-->
             <div><img src="" alt=""></div>
             <h3>Уникальность</h3>
@@ -71,7 +79,7 @@
             </ul>
             </div>
           </li>
-
+  
           <li> <!--Блок 2-->
             <div><img src="" alt=""></div>
             <h3>Премиум-класс</h3>
@@ -84,7 +92,7 @@
             </ul>
             </div>
           </li>
-
+  
           <li> <!--Блок 3-->
             <div><img src="" alt=""></div>
             <h3>Лакшери-стулья</h3>
@@ -98,8 +106,7 @@
             </div>
           </li>
         </ul><!--/future-->
-        
-
+  
         <!--last-news-->
         <h2>Последние новости</h2>
         <ul class="news">
@@ -118,7 +125,7 @@
                 скорость интернета будет стабильной в любое время суток. Коворкинг работает в формате 24/7. Используйте шкаф для хранения личных вещей. </p>
             </div>
           </li>
-
+  
           <li><!--Блок 2-->
             <div class="news-box">
               <div class="news-img">
@@ -134,7 +141,7 @@
                 Регулярно в коворкинге проводятся лекции, мастер-классы, встречи с инвесторами или менторами для резидентов. </p>
             </div>
           </li>
-
+  
           <li><!--Блок 3-->
             <div class="news-box">
               <div class="news-img">
@@ -151,7 +158,7 @@
             </div>
           </li>
         </ul><!--/last-news-->
-
+  
         <!--Pagination-->
         <div class="pagination"><!--Блок-->
           <div class="pagination-display">Страница 1 из 7</div>
@@ -169,32 +176,34 @@
             <a href="" class="pagination-right">></a>
           </div>
         </div><!--/Pagination-->
-      </main><!--/main-->
-      
-    <!--Footer-->
-    <footer class="footer"><!--Блок 1-->
-      <div class="description">Сделано с любовью и старанием
-        на курсе «HTML + CSS» в <a href="">LoftSchool</a>.
-        Автор работы: <span class="description-item">Прохладов Вадим</span>
       </div>
-      
-      <div class="footer-logo"><!--Блок 2-->
-        <a href="">
-          <img src="" alt="">
-        </a>
       </div>
-      
-      <div class="footer-social"><!--Блок 3-->
-        <h3 class="footer-text">Наши социальные сети</h3>
-        <ul class="footer-social-list">
-          <li><a href="" class="footer-social-list"></a>Vk</li>
-          <li><a href="" class="footer-social-list"></a>Fb</li>
-          <li><a href="" class="footer-social-list"></a>Tw</li>
-          <li><a href="" class="footer-social-list"></a>Mail</li>
-        </ul>
-      </div>
-    </footer><!--/Footer-->
+    </main><!--/main-->
+    
+  <!--Footer-->
+  <footer class="footer"><!--Блок 1-->
+    <div class="description">Сделано с любовью и старанием
+      на курсе «HTML + CSS» в <a href="">LoftSchool</a>.
+      Автор работы: <span class="description-item">Прохладов Вадим</span>
+    </div>
+    
+    <div class="footer-logo"><!--Блок 2-->
+      <a href="">
+        <img src="" alt="">
+      </a>
+    </div>
+    
+    <div class="footer-social"><!--Блок 3-->
+      <h3 class="footer-text">Наши социальные сети</h3>
+      <ul class="footer-social-list">
+        <li><a href="" class="footer-social-list"></a>Vk</li>
+        <li><a href="" class="footer-social-list"></a>Fb</li>
+        <li><a href="" class="footer-social-list"></a>Tw</li>
+        <li><a href="" class="footer-social-list"></a>Mail</li>
+      </ul>
+    </div>
+  </footer><!--/Footer-->
 
-  </div><!--/Wrapper-->
+</div><!--/Wrapper-->
 </body>
 </html>
