@@ -66,7 +66,7 @@
     width: 1100px;
   }
 
-  .sidebar .content-text {
+  .sidebar, .content-text {
     display: inline-block;
   }
 
