@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:300,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
   <link rel="stylesheet" href="./main.css">
   <title>Main Page</title>
 </head>
-<body>
-<!--Wrapper-->
-<div class="wrapper">
 
-  
-    <!--header-->
+<body>
+  <!--WRAPPER-->
+  <div class="wrapper">
+
+    <!--HEADER-->
     <header class="header">
       <div class="header-container">
-        <a  class="logo">
+        <a class="logo">
           <img src="img/logo.png" class="logo" alt="Логотип">
         </a>
         <div class="contacts">
@@ -25,93 +26,116 @@
           <div class="contacts__workhours">График работы</div>
         </div>
       </div>
-    </header><!--/header-->
+    </header>
+    <!--/HEADER-->
 
-    <!--cosmo-->
+    <!--COSMO-->
     <section>
       <div class="section-container">
         <img src="./img/Banner.png" alt="">
       </div>
-    </section><!--/cosmo-->
+    </section>
+    <!--/COSMO-->
 
-    <!--main-->
+    <!-- ================= MAIN ==================== -->
     <main>
+      <!--CONTAINER-->
       <div class="container">
-          <!--sidebar-->
-          <div class="sidebar">
-            <nav class="nav">
-              <ul class="nav-list">
-                <li class="nav-item">
-                  <a href="" class="nav-link">
-                    <img src="./img/main_icon.png" alt="">
-                    <div class="nav-title">Главная</div>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="" class="nav-link">
-                    <img src="./img/feed_icon.png" alt="">
-                    <div class="nav-title">Отзывы</div>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="" class="nav-link">
-                    <img src="./img/wallet_icon.png" alt="">
-                    <div class="nav-title">Тарифы</div>
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div><!--/sidebar-->
+        <!--SIDEBAR-->
+        <div class="sidebar">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  <img src="./img/main_icon.png" alt="">
+                  <div class="nav-title nav-title--active">Главная</div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  <img src="./img/feed_icon.png" alt="">
+                  <div class="nav-title">Отзывы</div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  <img src="./img/wallet_icon.png" alt="">
+                  <div class="nav-title">Тарифы</div>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!--/SIDEBAR-->
 
-          <!--future-->
-        <h2>Особенности</h2>
-        <div class="content-text">
+        <!-- ================= FUTURE ==================== -->
+        <div class="box-block">
+          <!-- box-block -->
+          <h2>Особенности</h2>
+
+          <!--Блок 1-->
           <ul class="futures">
-            <li> <!--Блок 1-->
-              <div><img src="" alt=""></div>
+            <!-- future -->
+            <li class="futures-item">
+              <div class="feature-icon-container">
+                <div class="features-circle">
+                  <img class="circle-flower" src="./img/flower.png" alt="">
+                </div>
+              </div>
               <h3>Уникальность</h3>
-              <div>
-                <p>Cоздан для вашего комфортного отдыха</p>
-              <ul>
-                <li>Кофе/чай</li>
-                <li>Шкаф (5 кг)</li>
-                <li>Рабочее место</li>
-              </ul>
+              <div class="features-text-container">
+                <p class="features-text">Cоздан для вашего комфортного отдыха</p>
+                <ul class="futures-list">
+                  <li><span>Кофе/чай</span></li>
+                  <li><span>Шкаф (5 кг)</span></li>
+                  <li><span>Рабочее место</span></li>
+                </ul>
               </div>
             </li>
-    
-            <li> <!--Блок 2-->
-              <div><img src="" alt=""></div>
+
+            <!--Блок 2-->
+            <li class="futures-item">
+              <div class="features-circle">
+                <img class="circle-star" src="./img/mark-as-favorite-star.png" alt="">
+              </div>
               <h3>Премиум-класс</h3>
-              <div>
-                <p>Для любителей хороших впечатлений</p>
-              <ul>
-                <li>Обед+кофе</li>
-                <li>Шкаф (10 кг)</li>
-                <li>Детское кресло</li>
-              </ul>
-              </div>
+              <div class="features-text-container">
+                <p class="features-text">Для любителей хороших впечатлений</p>
+                <ul class="futures-list">
+                  <li><span>Обед+кофе</span></li>
+                  <li><span>Шкаф (10 кг)</span></li>
+                  <li><span>Детское кресло</span></li>
+                </ul>
+              </div class="features-text-container">
             </li>
-    
-            <li> <!--Блок 3-->
-              <div><img src="" alt=""></div>
+
+            <!--Блок 3-->
+            <li class="futures-item">
+              <div class="features-circle">
+                <img class="circle-palette" src="./img/painter-palette.png" alt="">
+              </div>
               <h3>Лакшери-стулья</h3>
-              <div>
-                <p>Всё самое лучшее и незабываемое</p>
-              <ul>
-                <li>Джакузи</li>
-                <li>Шкаф (15 кг)</li>
-                <li>Табуретка</li>
-              </ul>
-              </div>
+              <div class="features-text-container">
+                <p class="features-text">Всё самое лучшее и незабываемое</p>
+                <ul class="futures-list">
+                  <li><span>Джакузи</span></li>
+                  <li><span>Шкаф (15 кг)</span></li>
+                  <li><span>Табуретка</span></li>
+                </ul>
+              </div class="features-text-container">
             </li>
-          </ul><!--/future-->
-    
-          <!--last-news-->
+          </ul>
+          <!--/future-->
+        </div><!-- box-block -->
+
+        <!-- ================= LAST NEWS ==================== -->
+        <div class="news-box">
           <h2>Последние новости</h2>
+          <!-- News -->
           <ul class="news">
-            <li><!--Блок 1-->
-              <div class="news-box">
+            <!--Блок 1-->
+            <li class="news-list">
+              <div class="news-item">
                 <div class="news-img">
                   <img src="" alt="">
                 </div>
@@ -121,13 +145,17 @@
               </div>
               <h3>Чёрная дыра скидок!</h3>
               <div class="news-text">
-                <p>Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в 500 метрах от здания, а значит, 
-                  скорость интернета будет стабильной в любое время суток. Коворкинг работает в формате 24/7. Используйте шкаф для хранения личных вещей. </p>
+                <p>Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в 500
+                  метрах от здания, а значит,
+                  скорость интернета будет стабильной в любое время суток. Коворкинг работает в формате 24/7.
+                  Используйте
+                  шкаф для хранения личных вещей. </p>
               </div>
             </li>
-    
-            <li><!--Блок 2-->
-              <div class="news-box">
+
+            <!--Блок 2-->
+            <li class="news-list">
+              <div class="news-item">
                 <div class="news-img">
                   <img src="" alt="">
                 </div>
@@ -137,13 +165,18 @@
               </div>
               <h3>Заражай друзей, получай призы!</h3>
               <div class="news-text">
-                <p>Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов - вдохновляет выходить на новые уровни развития.
-                  Регулярно в коворкинге проводятся лекции, мастер-классы, встречи с инвесторами или менторами для резидентов. </p>
+                <p>Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов - вдохновляет
+                  выходить
+                  на новые уровни развития.
+                  Регулярно в коворкинге проводятся лекции, мастер-классы, встречи с инвесторами или менторами для
+                  резидентов.
+                </p>
               </div>
             </li>
-    
-            <li><!--Блок 3-->
-              <div class="news-box">
+
+            <!--Блок 3-->
+            <li class="news-list">
+              <div class="news-item">
                 <div class="news-img">
                   <img src="" alt="">
                 </div>
@@ -153,17 +186,23 @@
               </div>
               <h3>Новое рабочее место для бизнесменов.</h3>
               <div class="news-text">
-                <p>Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она включает в себя: кухонную зону и зону релакса.
-                  Каждый резидент может беспрепятственно пользоваться кухонным оборудованием: микроволновкой, чайником, кофе машиной, посудой.</p>
+                <p>Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она включает в себя:
+                  кухонную зону и зону релакса.
+                  Каждый резидент может беспрепятственно пользоваться кухонным оборудованием: микроволновкой, чайником,
+                  кофе
+                  машиной, посудой.
+                </p>
               </div>
             </li>
-          </ul><!--/last-news-->
-    
-          <!--Pagination-->
-          <div class="pagination"><!--Блок-->
-            <div class="pagination-display">Страница 1 из 7</div>
-            <div class="pagination-controls">
-              <a href="" class="pagination-left"><</a>
+            <!-- News -->
+          </ul>
+        </div>
+
+        <!-- ================= PAGINATION ==================== -->
+        <div class="pagination">
+          <div class="pagination-display">Страница 1 из 7</div>
+          <div class="pagination-controls">
+            <a href="" class="pagination-left"><</a>
               <ul class="pagination-list">
                 <li><a href="" class="pagination-link"></a>1</li>
                 <li><a href="" class="pagination-link"></a>2</li>
@@ -173,37 +212,45 @@
                 <li><a href="" class="pagination-link"></a>6</li>
                 <li><a href="" class="pagination-link"></a>7</li>
               </ul>
-              <a href="" class="pagination-right">></a>
-            </div>
-          </div><!--/Pagination-->
+                <a href="" class="pagination-right">></a>
+          </div>
+          <!--/Pagination-->
         </div>
+        <!--/Container-->
       </div>
-    </main><!--/main-->
-    
-  <!--Footer-->
-  <footer class="footer"><!--Блок 1-->
-    <div class="description">Сделано с любовью и старанием
-      на курсе «HTML + CSS» в <a href="">LoftSchool</a>.
-      Автор работы: <span class="description-item">Прохладов Вадим</span>
-    </div>
-    
-    <div class="footer-logo"><!--Блок 2-->
-      <a href="">
-        <img src="" alt="">
-      </a>
-    </div>
-    
-    <div class="footer-social"><!--Блок 3-->
-      <h3 class="footer-text">Наши социальные сети</h3>
-      <ul class="footer-social-list">
-        <li><a href="" class="footer-social-list"></a>Vk</li>
-        <li><a href="" class="footer-social-list"></a>Fb</li>
-        <li><a href="" class="footer-social-list"></a>Tw</li>
-        <li><a href="" class="footer-social-list"></a>Mail</li>
-      </ul>
-    </div>
-  </footer><!--/Footer-->
+      <!--/MAIN-->
+    </main>
 
-</div><!--/Wrapper-->
+    <!-- ================= FOOTER ==================== -->
+    <footer class="footer">
+      <!--Блок 1-->
+      <div class="description">Сделано с любовью и старанием
+        на курсе «HTML + CSS» в <a href="">LoftSchool</a>.
+        Автор работы: <span class="description-item">Прохладов Вадим</span>
+      </div>
+
+      <!--Блок 2-->
+      <div class="footer-logo">
+        <a href="">
+          <img src="" alt="">
+        </a>
+      </div>
+
+      <!--Блок 3-->
+      <div class="footer-social">
+        <h3 class="footer-text">Наши социальные сети</h3>
+        <ul class="footer-social-list">
+          <li><a href="" class="footer-social-list"></a>Vk</li>
+          <li><a href="" class="footer-social-list"></a>Fb</li>
+          <li><a href="" class="footer-social-list"></a>Tw</li>
+          <li><a href="" class="footer-social-list"></a>Mail</li>
+        </ul>
+      </div>
+      <!--/Footer-->
+    </footer>
+
+    <!--WRAPPER-->
+  </div>
 </body>
+
 </html>
