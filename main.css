@@ -21,7 +21,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Gotham Pro'sans-serif;
 }
 
 .wrapper {
@@ -58,6 +57,7 @@ body {
   color: #fff;
   text-align: right;
   font-size: 21px;
+  font-family: 'Gotham Pro', sans-serif;
   font-weight: 700;
   text-decoration: none;
 }
@@ -66,6 +66,7 @@ body {
   color: #cb2376;
   text-align: right;
   font-size: 14px;
+  font-family: 'Open sans', sans-serif;
   font-weight: 700;
   opacity: .7;
 }
@@ -122,7 +123,7 @@ section {
 .nav-title {
   color: #cb2376;
   text-transform: uppercase;
-  font-family: "Gotham Pro";
+  font-family: 'Gotham Pro', sans-serif;
   font-size: 12px;
   font-weight: 700;
   margin-bottom: 32px;
@@ -142,7 +143,7 @@ section {
 }
 
 h2 {
-  font-family: "Gotham Pro";
+  font-family: 'Gotham Pro', sans-serif;
   font-weight: 700;
   font-size: 49px;
   padding: 0;
@@ -203,17 +204,19 @@ h2 {
   right: 20px;
 }
 h3 {
-  margin: 0 35px 28px 35px;
+  margin: 0 35px 15px 35px;
   padding: 0;
   text-transform: uppercase;
   font-size: 11px;
+  font-family: 'Gotham Pro', sans-serif;
   font-weight: 700;
 }
 
 .features-text-container {
   font-size: 18px;
   font-weight: 400;
-  font-family: "Gotham Pro";
+  font-family: 'Gotham Pro', sans-serif;
+  color: #262424;
 }
 
 p.features-text {
@@ -230,7 +233,7 @@ ul.futures-list {
   color: #cc3367;
 }
 .futures-list span {
-  color: #000;
+  color: #262424;
   margin-left: 13px;
 }
 
