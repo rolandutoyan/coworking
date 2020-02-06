@@ -152,7 +152,7 @@ h2 {
 }
 
 
-.section-container{
+.section-container {
   margin-bottom: 55px;
 }
 
@@ -170,6 +170,7 @@ h2 {
   height: 305px;
   margin-right: 68px;
 }
+
 .features-icon-container {
   width: 205px;
   height: 98px;
@@ -184,7 +185,7 @@ h2 {
   margin: 0 auto;
   padding: 0;
   margin-bottom: 30px;
-  
+
 }
 
 .circle-flower {
@@ -198,11 +199,13 @@ h2 {
   top: 16px;
   right: 18px;
 }
+
 .circle-palette {
   position: absolute;
   top: 19px;
   right: 20px;
 }
+
 .futures-h3 {
   margin: 0 35px 15px 35px;
   padding: 0;
@@ -227,11 +230,13 @@ p.features-text {
 ul.futures-list {
   text-align: left;
   margin-left: 13px;
-  padding-left:  20px;
+  padding-left: 20px;
 }
+
 .futures-list li {
   color: #cc3367;
 }
+
 .futures-list span {
   color: #262424;
   margin-left: 13px;
@@ -246,6 +251,8 @@ ul.futures-list {
 
 .news-list {
   margin-bottom: 56px;
+  padding: 20px;
+  border-bottom: 2px solid #f4f4f4;
 }
 
 .news-box {
@@ -300,7 +307,39 @@ ul.futures-list {
   font-size: 16px;
   font-family: Roboto;
   font-weight: 300;
-  line-height: 30px;
+  line-height: 27px;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============ PAGINATION ============= */
+.pagination {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.pagination a, li, ul {
+  display: inline-block;
+  color: #656464;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.pagination-display {
+  display: inline-block;
+  margin: 72px 29px 125px 0;
+}
+
+.pagination-controls {
+  display: inline-block;
+}
+
+.pagination-left {
+
+}
+
+.pagination-list {
   margin: 0;
   padding: 0;
 }
