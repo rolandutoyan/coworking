@@ -44,15 +44,13 @@ body {
 }
 
 .logo {
-  position: absolute;
-  top: 5px;
-  left: 13px;
+  display: inline-block;
+  padding: 13px 763px 13px 19px;
 }
 
 .contacts {
-  position: absolute;
-  top: 22px;
-  right: 22px;
+  display: inline-block;
+  padding: 22px 21px 6px 0;
 }
 
 .contacts-phone {
@@ -65,6 +63,7 @@ body {
 }
 
 .contacts__workhours {
+  margin: 0 22px 17px;
   color: #cb2376;
   text-align: right;
   font-size: 14px;
@@ -86,8 +85,9 @@ section {
 
 /* ============ FEATURES ============= */
 
-.container {
-  margin: 0;
+.main-container {
+  margin: 0 auto;
+  width: 1100px;
   padding: 0;
 }
 
@@ -378,6 +378,12 @@ ul.pagination-list {
   width: 100%;
   height: 79px;
   color: #fff;
+}
+
+.footer-container {
+  width: 1100px;
+  height: 77px;
+  margin: 0 auto;
 }
 
 .description {
