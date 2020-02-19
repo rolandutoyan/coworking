@@ -375,8 +375,6 @@ ul.pagination-list {
 .footer {
   display: block;
   background-color: #2b2b40;
-  width: 100%;
-  height: 79px;
   color: #fff;
 }
 
@@ -384,12 +382,14 @@ ul.pagination-list {
   width: 1100px;
   height: 77px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
 }
 
 .description {
   display: inline-block;
-  width: 264px;
-  height: 48px;
+  width: 30%;
   font-family: "Gotham Pro";
 }
 
@@ -421,8 +421,13 @@ ul.pagination-list {
   margin-right:;
 }
 
-.footer-social, .footer-social-list {
+.footer-social {
   display: inline-block;
   margin: 0;
   padding: 0;
+  width: 30%;
+}
+
+.footer-social-list {
+
 }
